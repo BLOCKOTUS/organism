@@ -1,13 +1,13 @@
 {
   "name": "blockotus-organism",
-  "version": "0.1.2-alpha",
+  "version": "0.1.3-beta",
   "description": "Hyperledger Fabric SDK.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bash ./scripts/dev.sh",
     "devInstall": "bash ./scripts/install.sh",
-    "upgrade-organ": "bash scripts/upgrade.sh"
+    "upgrade-organ": "bash ./scripts/upgrade.sh"
   },
   "repository": {
     "type": "git",
