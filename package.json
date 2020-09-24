@@ -4,7 +4,7 @@
   "description": "Hyperledger Fabric SDK.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "bash ./scripts/dev.sh",
     "devInstall": "bash ./scripts/install.sh",
     "upgrade-organ": "bash ./scripts/upgrade.sh"
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/blockotus/organism/issues"
   },
-  "homepage": "https://github.com/blockotus/organism#readme"
+  "homepage": "https://github.com/blockotus/organism#readme",
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "jest": "^26.4.2"
+  }
 }
