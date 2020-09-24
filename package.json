@@ -1,6 +1,6 @@
 {
   "name": "blockotus-organism",
-  "version": "0.1.3-beta",
+  "version": "0.1.4-beta",
   "description": "Hyperledger Fabric SDK.",
   "main": "index.js",
   "scripts": {
