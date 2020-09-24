@@ -136,6 +136,17 @@ Go to http://localhost:5984/_utils
 
 Credentials: admin / adminpw
 
+### Tests
+
+For a full coverage, start the organism before running tests.
+
+```bash
+$ yarn dev
+$ yarn test
+```
+
+
+
 ### Inspect Chaincode contracts logs (while running)
 
 ```bash
