@@ -145,8 +145,6 @@ $ yarn dev
 $ yarn test
 ```
 
-
-
 ### Inspect Chaincode contracts logs (while running)
 
 ```bash
