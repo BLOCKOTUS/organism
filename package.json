@@ -1,6 +1,6 @@
 {
   "name": "blockotus-organism",
-  "version": "0.1.4-beta",
+  "version": "0.1.5-beta",
   "description": "Hyperledger Fabric SDK.",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,15 @@
   "devDependencies": {
     "axios": "^0.20.0",
     "hybrid-crypto-js": "^0.2.4",
+    "hysky": "^1.0.1",
     "jest": "^26.4.2"
   },
   "resolutions": {
     "node-forge": "^0.10.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn test"
+    }
   }
 }
