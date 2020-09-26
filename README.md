@@ -1,9 +1,16 @@
-# || BLOCKOTUS || Organism
-## _Hyperledger Fabric SDK_
+# || BLOCKOTUS || Organism Boilerplate
+## _The most advanced boilerplate for Hyperledger Fabric_
 
 Build complete decentralized applications with BLOCKOTUS Organism. 
 
 Easily create a webapp that includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Network and Chaincode Contracts (Hyperledger Fabric, Smart Contracts).
+
+**Fabric-network @ 2.2.0**
+
+## Built-in features
+- React/Svelte webapp
+- Register user
+- Decentralized KYC
 
 ## Architecture
 
