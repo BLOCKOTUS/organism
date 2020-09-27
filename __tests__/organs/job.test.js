@@ -32,7 +32,6 @@ it('Should get a job', async () => {
     jobId: job.jobId,
   });
 
-  console.log({getJob})
   expect(getJob.chaincode).toBe('identity');
   expect(getJob.creator).toBeDefined();
   expect(getJob.data).toBeDefined();
@@ -51,9 +50,16 @@ it('Should not get a job', async () => {
 });
 
 it('Should list jobs', async () => {
+  const list = await api.list({
+    status: 'pending',
+    user,
+  });
 
+  expect(Array.isArray(list)).toBeTruthy();
 });
 
 it('Should complete a job', async () => {
-
+  // it is not straight forward 
+  // either we assume the database is empty before running tests, and we can guess who has a job assigned
+  // either we cannot guess who has a job assigned, and so, test the completion function
 });

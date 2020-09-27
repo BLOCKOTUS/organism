@@ -30,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn test"
+      "pre-push": "yarn run test"
     }
   }
 }
