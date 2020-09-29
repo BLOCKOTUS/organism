@@ -7,10 +7,14 @@ Easily create a webapp that includes a Frontend (Svelte / React), a Backend (Nod
 
 **Fabric-network @ 2.2.0**
 
-## Built-in features
-- React/Svelte webapp
+## Built-in 
+- Webapp boilerplate: Svelte.js + TypeScript + EsLint
+- API boilerplate: express
+- Network boilerplate: ibm
+- Scripts: hot chaincode upgrade, auto-install, deployment
+### Features
 - Register user
-- Decentralized KYC
+- Decentralized user verification (KYC)
 
 ## Architecture
 
