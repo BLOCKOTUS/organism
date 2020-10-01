@@ -61,7 +61,7 @@ it('Should share a keypair', async () => {
   }).catch(e => isError = true);
 
   expect(isError).toBeFalsy();
-});
+}, 10000);
 
 it('Should get a keypair', async () => {
   // TODO: getKeypair
