@@ -1,5 +1,44 @@
+![Twitter Follow](https://img.shields.io/twitter/follow/BLOCKOTUS?style=for-the-badge&logo=twitter)
+![GitHub followers](https://img.shields.io/github/followers/danielfebrero?label=danielfebrero&style=for-the-badge&logo=github)
+![GitHub Org's stars](https://img.shields.io/github/stars/BLOCKOTUS?logo=github&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/BLOCKOTUS/Organism?style=for-the-badge)
+
+<br />
+
 # || BLOCKOTUS || Organism Boilerplate
+
+<br />
+<br />
+<br />
+
+<p align="center">
+<img 
+    style="margin-right: 10px" 
+    height="60px" 
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/240px-JavaScript-logo.png" 
+/>
+<img 
+    style="margin-right: 10px" 
+    height="60px" 
+    src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color-1-300x84.png" 
+/>
+<img 
+    style="margin-right: 10px" 
+    height="60px" 
+    src="https://github.com/sveltejs/branding/raw/master/svelte-horizontal.png" 
+/>
+<img 
+    style="margin-right: 10px" 
+    height="60px" 
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/1200px-Node.js_logo_2015.svg.png"
+/>
+</p>
+<br />
+<br />
+<br />
+
 ## _The most advanced boilerplate for Hyperledger Fabric_
+
 
 Build complete decentralized applications with BLOCKOTUS Organism. 
 
@@ -16,55 +55,9 @@ Easily create a webapp that includes a Frontend (Svelte / React), a Backend (Nod
 - Register user
 - Decentralized user verification (KYC)
 
-## Architecture
+## Documentation
 
-### Nerves
-HTTP server. It is an API connecting Webapps and the Organs.
-
-[https://github.com/BLOCKOTUS/nerves](https://github.com/BLOCKOTUS/nerves)
-
-### Network
-HyperLedger Fabric network. Basic sample with 2 orgs. Used for local development and self-mounted networks. Can be replaced by IBM Cloud.
-
-[https://github.com/BLOCKOTUS/network](https://github.com/BLOCKOTUS/network)
-
-### Organs
-Composed of APIs and Chaincodes Contract, linking the Network and the Nerves. 
-
-#### Admins
-Manage admins and wallets.
-
-[https://github.com/BLOCKOTUS/admins](https://github.com/BLOCKOTUS/admins)
-
-#### Helper
-Shared APIs and Chaincode Contract functions.
-
-[https://github.com/BLOCKOTUS/helper](https://github.com/BLOCKOTUS/helper)
-
-#### Identity
-Used for KYC.
-
-[https://github.com/BLOCKOTUS/identity](https://github.com/BLOCKOTUS/identity)
-
-#### Job
-Used for job attribution between users.
-
-[https://github.com/BLOCKOTUS/job](https://github.com/BLOCKOTUS/job)
-
-#### User
-Used for managing Network users and usernames.
-
-[https://github.com/BLOCKOTUS/user](https://github.com/BLOCKOTUS/user)
-
-### Webapp
-Interacts with the nerves. Serve and manipulate data from the Network.
-
-[https://github.com/BLOCKOTUS/webapp](https://github.com/BLOCKOTUS/webapp)
-
-### Scripts
-They help the development and deployment operations.
-
-[https://github.com/BLOCKOTUS/scripts](https://github.com/BLOCKOTUS/scripts)
+[Architecture](https://github.com/BLOCKOTUS/organism/blob/master/docs/architecture.md)
 
 ## Installation
 
