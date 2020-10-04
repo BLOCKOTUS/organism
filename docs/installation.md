@@ -3,9 +3,11 @@
 ### Requirements
 
 - NVM, node 10 and 12
-- Docker (daemon must be running) 
-Note: on macOS, stay on Docker Desktop 2.3.0.5. The last version 2.4.0 breaks fabric-network 2.x. That is funny when you think that Docker has been designed to create environments with well defined software versions. Except it's own.
+- Docker (daemon must be running)
 - Clone this repository
+
+#### Known issue
+- macOS: Docker Desktop 2.4.0.0 requires to uncheck "Use gRPC FUSE for file sharing" in Docker -> Preferences -> General
 
 ### Steps
 
