@@ -4,7 +4,7 @@
   "description": "Hyperledger Fabric SDK.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --runInBand",
     "dev": "bash ./scripts/dev.sh",
     "devInstall": "bash ./scripts/install.sh",
     "upgrade-organ": "bash ./scripts/upgrade.sh"

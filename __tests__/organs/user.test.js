@@ -34,7 +34,7 @@ it('Should create a user', async () => {
 
   expect(typeof newUser.wallet.credentials).toBe('object');
   expect(newUser.id).toBeDefined();
-});
+}, 10000);
 
 it('Should not create a user', async () => {
   var isError = false;

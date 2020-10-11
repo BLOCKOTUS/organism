@@ -23,7 +23,7 @@ it('Should create a job', async () => {
 
   expect(Array.isArray(job.workersIds)).toBeTruthy();
   expect(job.jobId).toBeDefined();
-});
+}, 10000);
 
 
 it('Should get a job', async () => {
@@ -37,7 +37,7 @@ it('Should get a job', async () => {
   expect(getJob.data).toBeDefined();
   expect(getJob.key).toBe('identityKey');
   expect(getJob.type).toBe('confirmation');
-});
+}, 10000);
 
 it('Should not get a job', async () => {
   var isError = false;
