@@ -1,7 +1,7 @@
 {
   "name": "blockotus-organism",
-  "version": "0.1.8-beta",
-  "description": "Hyperledger Fabric SDK.",
+  "version": "0.1.9",
+  "description": "Boilerplate for Hyperledger Fabric.",
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
