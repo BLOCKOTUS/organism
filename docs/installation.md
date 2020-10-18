@@ -16,7 +16,7 @@ Start docker.
 Run the following commands from the Organism root directory:
 
 ```bash
-$ git submodules update --init --recursive
+$ yarn run update-submodules
 $ yarn run devInstall # you may have to run the command two times and switch your node version
 ``` 
 
