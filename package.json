@@ -1,13 +1,15 @@
 {
   "name": "blockotus-organism",
-  "version": "0.1.9",
+  "version": "0.2.0-beta",
   "description": "Boilerplate for Hyperledger Fabric.",
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
-    "dev": "bash ./scripts/dev.sh",
+    "dev": "node ./scripts/dev.js",
     "devInstall": "bash ./scripts/install.sh",
-    "upgrade-organ": "bash ./scripts/upgrade.sh"
+    "upgrade-organ": "bash ./scripts/upgrade.sh",
+    "update-submodules": "git submodule update --init --recursive",
+    "update-submodules:latest": "git submodule update --remote --recursive"
   },
   "repository": {
     "type": "git",
