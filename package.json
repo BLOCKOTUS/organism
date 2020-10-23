@@ -1,6 +1,6 @@
 {
   "name": "blockotus-organism",
-  "version": "0.2.0-beta",
+  "version": "0.2.0-alhpa",
   "description": "Boilerplate for Hyperledger Fabric.",
   "main": "index.js",
   "scripts": {
