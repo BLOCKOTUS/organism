@@ -1,6 +1,6 @@
 {
   "name": "blockotus-organism",
-  "version": "0.2.0-alhpa",
+  "version": "0.2.1-alhpa",
   "description": "Boilerplate for Hyperledger Fabric.",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn run test"
+      "pre-push": "yarn test"
     }
   }
 }
