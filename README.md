@@ -78,7 +78,7 @@ Create and share your own Organs.
   <img src="https://img.shields.io/badge/fabric--network-%402.2.0-green?style=for-the-badge" />
 </a>
 <a href="https://github.com/sveltejs/svelte">
-  <img src="https://img.shields.io/badge/svelte-%403.28.0-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/svelte-%403.29.4-green?style=for-the-badge" />
 </a>
 
 <br />
