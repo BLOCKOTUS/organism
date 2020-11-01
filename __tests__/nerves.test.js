@@ -1,4 +1,5 @@
 const axios = require('axios');
+const crypto = require('crypto');
 var RSA = require('hybrid-crypto-js').RSA;
 var Crypt = require('hybrid-crypto-js').Crypt;
 
@@ -6,6 +7,20 @@ const NERVES_URL = 'http://localhost:3000';
 var users = [];
 var crypt = new Crypt();
 var rsa = new RSA();
+
+const baseIdentity = {
+  firstname: 'John',
+  lastname: 'Smith',
+  birthdate: '1990-02-23',
+  nation: 'UdS',
+  nationalId: `8d98${Math.random() * 999}`,
+}
+
+const uniqueHashFromIdentity = identity =>
+    crypto
+        .createHash('md5')
+        .update(`${identity.nation}-${identity.nationalId}-${identity.birthdate}`)
+        .digest('hex');
 
 const request = ({
   username = '',
@@ -52,7 +67,7 @@ const createUser = async () => {
 };
 
 const createIdentity = async () => {
-  const encryptedIdentity = crypt.encrypt(users[0].keypair.publicKey, JSON.stringify({name: 'dani'}));
+  const encryptedIdentity = crypt.encrypt(users[0].keypair.publicKey, JSON.stringify(baseIdentity));
   const options = {
     username: users[0].username,
     wallet: users[0].wallet,
@@ -60,6 +75,7 @@ const createIdentity = async () => {
     url: `${NERVES_URL}/identity`,
     data: {
       encryptedIdentity,
+      uniqueHash: uniqueHashFromIdentity(baseIdentity)
     },
   };
   

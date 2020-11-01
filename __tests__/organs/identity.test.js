@@ -14,10 +14,10 @@ const identity1 = {
     lastname: 'Smith',
     birthdate: '1992-01-01',
     nation: 'ES',
-    nationalId: '89898989G',
+    nationalId: `8d98${Math.random() * 999}`,
 };
 
-const identity2 = { ...identity1, nationalId: '78787878K' };
+const identity2 = { ...identity1, nationalId: `dsdf8${Math.random() * 999}` };
 
 var user, keypair1, keypair2, encryptedIdentity1, encryptedIdentity2, uniqueHash1, uniqueHash2;
 
