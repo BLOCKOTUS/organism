@@ -3,7 +3,7 @@ const path = require('path');
 var RSA = require('hybrid-crypto-js').RSA;
 var Crypt = require('hybrid-crypto-js').Crypt;
 
-const registerUser = require('../../organs/admins/registerUser').main;
+const registerUser = require('../../tools/admins/registerUser').main;
 const api = require('../../organs/user/api');
 
 const generateKeyPair = () => {

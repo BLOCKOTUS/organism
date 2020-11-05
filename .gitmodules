@@ -7,8 +7,8 @@
 [submodule "organs/job"]
 	path = organs/job
 	url = https://github.com/BLOCKOTUS/job.git
-[submodule "organs/admins"]
-	path = organs/admins
+[submodule "tools/admins"]
+	path = tools/admins
 	url = https://github.com/BLOCKOTUS/admins.git
 [submodule "nerves"]
 	path = nerves
