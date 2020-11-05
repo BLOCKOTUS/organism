@@ -3,7 +3,7 @@ const path = require('path');
 const { RSA, Crypt } = require('hybrid-crypto-js');
 const crypto = require('crypto');
 
-const registerUser = require('../../organs/admins/registerUser').main;
+const registerUser = require('../../tools/admins/registerUser').main;
 const api = require('../../organs/identity/api');
 
 var rsa = new RSA();
