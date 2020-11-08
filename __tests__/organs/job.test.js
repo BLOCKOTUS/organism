@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const registerUser = require('../../organs/admins/registerUser').main;
+const registerUser = require('../../tools/admins/registerUser').main;
 const api = require('../../organs/job/api');
 var job;
 
