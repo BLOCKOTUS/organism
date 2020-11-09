@@ -3,7 +3,7 @@
 ### Run the complete organism
 
 ```bash
-$ yarn run dev
+$ yarn run dev [--skip-network|--skip-contracts|--skip-bootstrap|--skip-nerves|--skip-webapp] # nvm use 15
 ``` 
 
 Done.
