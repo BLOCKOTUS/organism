@@ -1,6 +1,6 @@
 {
   "name": "blockotus-organism",
-  "version": "0.2.2-alhpa",
+  "version": "0.2.3-alhpa",
   "description": "Boilerplate for Hyperledger Fabric.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
     "url": "https://github.com/blockotus/organism/issues"
   },
   "homepage": "https://github.com/blockotus/organism#readme",
+  "type": "module",
   "devDependencies": {
     "axios": "^0.20.0",
     "hybrid-crypto-js": "^0.2.4",
