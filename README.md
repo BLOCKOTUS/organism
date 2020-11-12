@@ -61,14 +61,11 @@
 <br />
 <br />
 
-## _The most advanced boilerplate for Hyperledger Fabric_
+## Hyperledger Fabric Boilerplate
 
+Build complete decentralized applications with __Blockotus Network Open Standard__ and __Hyperledger Fabric__. 
 
-Build complete decentralized applications with BLOCKOTUS Organism. 
-
-Easily create a webapp that includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Network and Chaincode Contracts (Hyperledger Fabric, Chaincode Contracts).
-
-Create and share your own Organs.
+The boilerplate includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Network and Chaincode Contracts (Hyperledger Fabric, Chaincode Contracts).
 
 <br />
 <br />

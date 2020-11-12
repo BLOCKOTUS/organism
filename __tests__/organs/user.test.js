@@ -3,8 +3,8 @@ const path = require('path');
 var RSA = require('hybrid-crypto-js').RSA;
 var Crypt = require('hybrid-crypto-js').Crypt;
 
-const registerUser = require('../../tools/admins/registerUser').main;
-const api = require('../../organs/user/api');
+const registerUser = require('../../tools/admins/dist/registerUser').main;
+const api = require('../../organs/user/api/index.minified.js');
 
 const generateKeyPair = () => {
   return new Promise((resolve) => {
@@ -15,6 +15,7 @@ const generateKeyPair = () => {
 var username2;
 var rsa = new RSA();
 var crypt = new Crypt();
+var user;
 
 beforeAll( async () => {
   const username = (Math.random() * 420).toString();

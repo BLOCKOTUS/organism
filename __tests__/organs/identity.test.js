@@ -3,8 +3,8 @@ const path = require('path');
 const { RSA, Crypt } = require('hybrid-crypto-js');
 const crypto = require('crypto');
 
-const registerUser = require('../../tools/admins/registerUser').main;
-const api = require('../../organs/identity/api');
+const registerUser = require('../../tools/admins/dist/registerUser').main;
+const api = require('../../organs/identity/api/index.minified.js');
 
 var rsa = new RSA();
 var crypt = new Crypt();
