@@ -1,7 +1,7 @@
 {
   "name": "blockotus-organism",
-  "version": "0.2.3-alhpa",
-  "description": "Boilerplate for Hyperledger Fabric.",
+  "version": "0.2.4-alhpa",
+  "description": "Boilerplate for Blockotus Network made with Hyperledger Fabric.",
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
