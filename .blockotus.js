@@ -17,6 +17,10 @@ export default
       {
         "name": "user",
         "lang": "typescript"
+      },
+      {
+        "name": "did",
+        "lang": "typescript"
       }
     ]
   };
