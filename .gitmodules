@@ -25,3 +25,6 @@
 [submodule "organs/helper"]
 	path = organs/helper
 	url = https://github.com/BLOCKOTUS/helper.git
+[submodule "organs/did"]
+	path = organs/did
+	url = https://github.com/BLOCKOTUS/did.git
