@@ -97,7 +97,7 @@ The kit includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Ne
 
 ## Documentation
 
-[Architecture](https://github.com/BLOCKOTUS/organism/blob/master/docs/architecture.md)
+[Architecture - Open Standard](https://github.com/BLOCKOTUS/organism/blob/master/docs/architecture.md)
 
 [Installation](https://github.com/BLOCKOTUS/organism/blob/master/docs/installation.md)
 
