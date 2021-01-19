@@ -16,8 +16,9 @@ Start docker.
 Run the following commands from the Organism root directory:
 
 ```bash
+$ nvm use 12
 $ yarn run update-submodules
-$ yarn run devInstall # nvm use 12
+$ yarn run devInstall
 ``` 
 
 Done.
