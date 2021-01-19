@@ -11,12 +11,7 @@ HyperLedger Fabric network. Basic sample with 2 orgs. Used for local development
 [https://github.com/BLOCKOTUS/network](https://github.com/BLOCKOTUS/network)
 
 ### Organs
-Composed of APIs and Chaincodes Contract, linking the Network and the Nerves. 
-
-#### Admins
-Manage admins and wallets.
-
-[https://github.com/BLOCKOTUS/admins](https://github.com/BLOCKOTUS/admins)
+Composed of APIs and Chaincodes Contract, deployed on the Network. 
 
 #### Helper
 Shared APIs and Chaincode Contract functions.
@@ -43,7 +38,12 @@ Interacts with the nerves. Serve and manipulate data from the Network.
 
 [https://github.com/BLOCKOTUS/webapp](https://github.com/BLOCKOTUS/webapp)
 
+### Tools
+#### Admins
+Manage admins and wallets.
+
+[https://github.com/BLOCKOTUS/admins](https://github.com/BLOCKOTUS/admins)
 ### Scripts
-They help the development and deployment operations.
+They assist the development and deployment operations.
 
 [https://github.com/BLOCKOTUS/scripts](https://github.com/BLOCKOTUS/scripts)
