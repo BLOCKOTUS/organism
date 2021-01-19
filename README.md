@@ -21,7 +21,7 @@
 
 <br />
 
-# || BLOCKOTUS || Organism Boilerplate
+# || BLOCKOTUS || Open and Decentralized Standard
 
 <br />
 <br />
@@ -61,11 +61,11 @@
 <br />
 <br />
 
-## Hyperledger Fabric Boilerplate
+## Organism Kit for Hyperledger Fabric
 
-Build complete decentralized applications with __Blockotus Network Open Standard__ and __Hyperledger Fabric__. 
+Build complete decentralized applications with __Blockotus Open and Decentralized Standard__ and __Hyperledger Fabric__. 
 
-The boilerplate includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Network and Chaincode Contracts (Hyperledger Fabric, Chaincode Contracts).
+The kit includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Network and Chaincode Contracts (Hyperledger Fabric) as specified by Blockotus Open and Decentralized Standard.
 
 <br />
 <br />
