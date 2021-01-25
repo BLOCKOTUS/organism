@@ -123,7 +123,7 @@ const createSharedKeypair = async () => {
     username: users[0].username,
     wallet: users[0].wallet,
     method: 'POST',
-    url: `${NERVES_URL}/user/keypair`,
+    url: `${NERVES_URL}/keypair`,
     data: {
       sharedWith: {},
       groupId: 'anyGroupId',

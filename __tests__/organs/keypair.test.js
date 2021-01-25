@@ -6,6 +6,9 @@ var Crypt = require('hybrid-crypto-js').Crypt;
 const registerUser = require('../../tools/admins/dist/registerUser').main;
 const api = require('../../organs/keypair/api/dist/index.js');
 
+var rsa = new RSA();
+var crypt = new Crypt();
+
 const generateKeyPair = () => {
   return new Promise((resolve) => {
     rsa.generateKeyPair(resolve);
@@ -26,7 +29,7 @@ it('Should share a keypair', async () => {
   const keypair = await generateKeyPair();
   const keypair2 = await generateKeyPair();
   const myEncryptedKeyPair = crypt.encrypt(keypair.publicKey, keypair2);
-  const sharedKeypair = await api.shareKeypair({
+  const sharedKeypair = await api.share({
     sharedWith: {},
     groupId: 'anyGroupId',
     myEncryptedKeyPair,
