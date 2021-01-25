@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
-    "dev": "nvm use 14 && node ./scripts/dev.js",
-    "devInstall": "bash ./scripts/install.sh",
+    "dev": "node ./scripts/dev.js",
     "upgrade-organ": "bash ./scripts/upgrade.sh",
     "update-submodules": "git submodule update --init --recursive",
     "update-submodules:latest": "git submodule update --remote --recursive"
