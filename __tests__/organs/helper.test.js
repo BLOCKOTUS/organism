@@ -1,4 +1,4 @@
-const api = require('../../organs/helper/api/index.minified.js');
+const api = require('../../organs/helper/api/dist/index.js');
 
 it('Should get Contract and Gateway', async () => {
     const result = await api.getContractAndGateway({
