@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const registerUser = require('../../tools/admins/dist/registerUser').main;
-const api = require('../../organs/job/api/index.minified.js');
+const api = require('../../organs/job/api/dist/index.js');
 
 var job, user;
 

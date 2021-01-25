@@ -3,6 +3,10 @@ export default
     "name": "BLOCKOTUS",
     "organs": [
       {
+        "name": "did",
+        "lang": "typescript"
+      },
+      {
         "name": "helper",
         "lang": "typescript"
       },
@@ -15,12 +19,12 @@ export default
         "lang": "typescript"
       },
       {
-        "name": "user",
+        "name": "keypair",
         "lang": "typescript"
       },
       {
-        "name": "did",
+        "name": "user",
         "lang": "typescript"
-      }
+      },
     ]
   };

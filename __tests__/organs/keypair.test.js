@@ -4,7 +4,10 @@ var RSA = require('hybrid-crypto-js').RSA;
 var Crypt = require('hybrid-crypto-js').Crypt;
 
 const registerUser = require('../../tools/admins/dist/registerUser').main;
-const api = require('../../organs/user/api/dist/index.js');
+const api = require('../../organs/keypair/api/dist/index.js');
+
+var rsa = new RSA();
+var crypt = new Crypt();
 
 const generateKeyPair = () => {
   return new Promise((resolve) => {
@@ -12,9 +15,6 @@ const generateKeyPair = () => {
   });
 };
 
-var username2;
-var rsa = new RSA();
-var crypt = new Crypt();
 var user;
 
 beforeAll( async () => {
@@ -24,26 +24,22 @@ beforeAll( async () => {
   user = { username, wallet: JSON.parse(wallet) };
 });
 
-
-it('Should create a user', async () => {
-  username2 = (Math.random() * 420).toString();
-  const keypair = await generateKeyPair();
-  const newUser = await api.create({
-    username: username2,
-    publicKey: keypair.publicKey,
-  })
-
-  expect(typeof newUser.wallet.credentials).toBe('object');
-  expect(newUser.id).toBeDefined();
-}, 10000);
-
-it('Should not create a user', async () => {
+it('Should share a keypair', async () => {
   var isError = false;
   const keypair = await generateKeyPair();
-  const newUser = await api.create({
-    username: username2,
-    publicKey: keypair.publicKey,
+  const keypair2 = await generateKeyPair();
+  const myEncryptedKeyPair = crypt.encrypt(keypair.publicKey, keypair2);
+  const sharedKeypair = await api.share({
+    sharedWith: {},
+    groupId: 'anyGroupId',
+    myEncryptedKeyPair,
+    type: 'job',
+    user,
   }).catch(e => isError = true);
 
-  expect(isError).toBeTruthy();
+  expect(isError).toBeFalsy();
+}, 10000);
+
+it('Should get a keypair', async () => {
+  // TODO: getKeypair
 });

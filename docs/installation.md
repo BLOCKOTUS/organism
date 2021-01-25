@@ -17,7 +17,8 @@ Run the following commands from the Organism root directory:
 
 ```bash
 $ yarn run update-submodules
-$ yarn run devInstall # nvm use 12
+$ nvm use 14
+$ bash scripts/install.sh [--skip-binaries]
 ``` 
 
 Done.

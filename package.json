@@ -1,12 +1,11 @@
 {
   "name": "blockotus-organism",
-  "version": "0.2.4-alhpa",
-  "description": "Boilerplate for Blockotus Network made with Hyperledger Fabric.",
+  "version": "0.2.5-alhpa",
+  "description": "Open and Decentralized Standard made with Hyperledger Fabric and DID W3C.",
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
     "dev": "node ./scripts/dev.js",
-    "devInstall": "bash ./scripts/install.sh",
     "upgrade-organ": "bash ./scripts/upgrade.sh",
     "update-submodules": "git submodule update --init --recursive",
     "update-submodules:latest": "git submodule update --remote --recursive"
@@ -23,12 +22,12 @@
   "homepage": "https://github.com/blockotus/organism#readme",
   "type": "module",
   "devDependencies": {
-    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
     "axios": "^0.21.1",
     "babel-jest": "^26.6.3",
+    "husky": "^4.3.8",
     "hybrid-crypto-js": "^0.2.4",
-    "hysky": "^1.0.1",
-    "jest": "^26.4.2"
+    "jest": "^26.6.3"
   },
   "resolutions": {
     "node-forge": "^0.10.0"

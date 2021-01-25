@@ -4,7 +4,7 @@ const { RSA, Crypt } = require('hybrid-crypto-js');
 const crypto = require('crypto');
 
 const registerUser = require('../../tools/admins/dist/registerUser').main;
-const api = require('../../organs/identity/api/index.minified.js');
+const api = require('../../organs/identity/api/dist/index.js');
 
 var rsa = new RSA();
 var crypt = new Crypt();

@@ -72,7 +72,7 @@ The kit includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Ne
 <br />
 
 <a href="https://github.com/hyperledger/fabric-sdk-node/tree/master/fabric-network">
-  <img src="https://img.shields.io/badge/fabric--network-%402.2.0-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/fabric--network-%402.2.5-green?style=for-the-badge" />
 </a>
 <a href="https://github.com/sveltejs/svelte">
   <img src="https://img.shields.io/badge/svelte-%403.29.4-green?style=for-the-badge" />
@@ -97,7 +97,7 @@ The kit includes a Frontend (Svelte / React), a Backend (Nodejs / Express), a Ne
 
 ## Documentation
 
-[Architecture](https://github.com/BLOCKOTUS/organism/blob/master/docs/architecture.md)
+[Architecture - Open Standard](https://github.com/BLOCKOTUS/organism/blob/master/docs/architecture.md)
 
 [Installation](https://github.com/BLOCKOTUS/organism/blob/master/docs/installation.md)
 

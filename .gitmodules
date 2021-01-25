@@ -28,3 +28,6 @@
 [submodule "organs/did"]
 	path = organs/did
 	url = https://github.com/BLOCKOTUS/did.git
+[submodule "organs/keypair"]
+	path = organs/keypair
+	url = https://github.com/BLOCKOTUS/keypair.git

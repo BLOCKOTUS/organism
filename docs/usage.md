@@ -3,8 +3,9 @@
 ### Run the complete organism
 
 ```bash
-# It could take up to 10 minutes: 1min for the network, and 5 to 10 for the contracts.
-$ yarn run dev [--skip-network|--skip-contracts|--skip-bootstrap|--skip-nerves|--skip-webapp] # nvm use 15
+# It could take up to 10 minutes: 1min for the network, and another 5 to 10min for contracts.
+$ nvm use 15
+$ yarn run dev [--skip-network|--skip-contracts|--skip-bootstrap|--skip-nerves|--skip-webapp]
 ``` 
 
 Done.
