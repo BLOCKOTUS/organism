@@ -6,10 +6,10 @@ export default
         "name": "did",
         "lang": "typescript"
       },
-      {
-        "name": "helper",
-        "lang": "typescript"
-      },
+      // {
+      //   "name": "helper",
+      //   "lang": "typescript"
+      // },
       {
         "name": "identity",
         "lang": "typescript"
