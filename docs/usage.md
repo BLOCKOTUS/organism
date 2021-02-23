@@ -4,7 +4,7 @@
 
 ```bash
 # It could take up to 10 minutes: 1min for the network, and another 5 to 10min for contracts.
-$ nvm use 15
+$ nvm use 14
 $ yarn run dev [--skip-network|--skip-contracts|--skip-bootstrap|--skip-nerves|--skip-webapp]
 ``` 
 
