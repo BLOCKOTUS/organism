@@ -1,6 +1,6 @@
 {
   "name": "blockotus-organism",
-  "version": "0.2.5-alhpa",
+  "version": "0.2.7-alhpa",
   "description": "Open and Decentralized Standard made with Hyperledger Fabric and DID W3C.",
   "main": "index.js",
   "scripts": {
