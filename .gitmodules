@@ -31,3 +31,6 @@
 [submodule "organs/keypair"]
 	path = organs/keypair
 	url = https://github.com/BLOCKOTUS/keypair.git
+[submodule "webapps/webapp-react"]
+	path = webapps/webapp-react
+	url = https://github.com/BLOCKOTUS/webapp-react.git
