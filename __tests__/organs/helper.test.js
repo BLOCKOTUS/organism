@@ -1,6 +1,6 @@
 const api = require('../../organs/helper/api/dist/index.js');
 
-it('Should get Contract and Gateway', async () => {
+it.skip('Should get Contract and Gateway', async () => {
     const result = await api.getContractAndGateway({
         username: 'admin', 
         chaincode: 'helper', 
